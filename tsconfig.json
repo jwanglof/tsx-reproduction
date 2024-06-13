@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "module": "Node16",
+    "allowJs": true,
+    "strict": false,
+    "alwaysStrict": true,
+    "target": "ES2019",
+    "lib": ["ES2019", "WebWorker.ImportScripts", "ScriptHost", "ES2020.Promise", "DOM", "DOM.Iterable"],
+    "esModuleInterop": true,
+    "moduleResolution": "Node16",
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["./src/**/*", "./src/**/*.ts", "./vitest.**.ts", "./types/*"],
+}
